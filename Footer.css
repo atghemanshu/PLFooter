@@ -1,0 +1,253 @@
+body {
+  /* TYPOGRAPHY: Set primary font to Raleway */
+  font-family: "Raleway", sans-serif;
+  color: #545660;
+  font-size: 16px;
+  background-color: #ffffff;
+}
+
+.phia-footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+/* 
+   --- Newsletter & Divider Section ---
+*/
+.newsletter-section {
+  text-align: center;
+}
+
+.newsletter-form-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  max-width: 900px;
+  margin: 0 auto 25px auto;
+}
+
+.newsletter-input {
+  flex: 1 1 0;
+  min-width: 180px;
+  max-width: 300px;
+  height: 50px;
+  font-size: 15px;
+  color: #545660;
+  background-color: #fff;
+  border: 2px solid #999999;
+  border-radius: 5px;
+  padding: 0 18px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  font-family: "Raleway", sans-serif;
+}
+
+.newsletter-input::placeholder {
+  color: #a9a9a9;
+  opacity: 1;
+}
+
+.newsletter-input:focus {
+  border-color: #9e8844;
+  box-shadow: 0 0 0 0.2rem rgba(158, 136, 68, 0.18);
+  outline: none;
+}
+
+.newsletter-btn {
+  background: transparent;
+  border: 2px solid #9e8844;
+  color: #9e8844;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  padding: 0 32px;
+  height: 50px;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+  font-family: "Raleway", sans-serif;
+  cursor: pointer;
+  min-width: 150px;
+}
+
+.newsletter-btn:hover {
+  background: #9e8844;
+  color: #fff;
+}
+
+.section-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0 10px 0;
+}
+
+.section-divider::before,
+.section-divider::after {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  background-color: #d2b55b; /* Using a neutral light gray for dividers */
+  margin: 0 40px;
+}
+
+.divider-icon {
+  max-width: 100px;
+}
+
+.newsletter-title {
+  /* COLOR: Set heading color to Gloden (#9e8844) */
+  color: #9e8844;
+  /* font-weight: 100;  */
+  font-size: 29px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.newsletter-form .form-control {
+  height: 50px;
+  font-size: 15px;
+  margin-bottom: px;
+  color: #545660;
+  background-color: #ffffff;
+  border: 2px solid #999999;
+  border-radius: 5px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.newsletter-form .form-control::placeholder {
+  color: #a9a9a9; /* A lighter grey for the placeholder */
+  opacity: 1;
+}
+
+.newsletter-form .form-control:focus {
+  border-color: #9e8844;
+  box-shadow: 0 0 0 0.2rem rgba(158, 136, 68, 0.25);
+  outline: 0;
+}
+
+.btn-join {
+  /* COLOR: Set button styles to use Accent color */
+  background-color: transparent;
+  border: 2px solid #9e8844;
+  color: #9e8844;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 6px;
+
+  width: 100%;
+  height: 50px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.btn-join:hover {
+  background-color: #9e8844;
+  color: #ffffff;
+}
+
+/* 
+   --- Main Footer Links Section ---
+*/
+.main-footer-section {
+  padding-top: 30px;
+}
+
+.footer-logo {
+  max-width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.widget-title {
+  color: #9e8844;
+
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.footer-links,
+.footer-contact {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-links li,
+.footer-contact li {
+  margin-bottom: 7px;
+
+  font-size: 14px;
+  font-weight: 400; 
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.footer-links li a:hover {
+  color: #d2b55b;
+}
+
+.footer-contact i {
+  color: #9e8844; 
+  margin-right: 12px;
+  font-size: 16px;
+}
+
+.footer-phone-link {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-phone-link:hover {
+  color: #d2b55b;
+}
+.footer-email-link,
+.footer-address-link {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-email-link:hover,
+.footer-address-link:hover {
+  color: #d2b55b;
+}
+
+.social-icons {
+  margin-top: 25px;
+}
+
+.social-icons a {
+  color: #9e8844; 
+  font-size: 18px;
+  margin-right: 18px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #d6bc6b;
+  opacity: 1;
+}
+
+/* 
+   --- Copyright Section ---
+*/
+.copyright-section {
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 0px;
+  border-top: 1px solid #e5e5e5; /* Neutral border color */
+}
+
+.copyright-section p {
+  margin: 0;
+  font-size: 14px;
+  color: #9e8844;
+}
